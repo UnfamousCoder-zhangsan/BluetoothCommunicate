@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # “**”这个通配符代表
   # 次级文件夹
 
-  spec.source_files  = "HKBluetooth/Classes/**/*.(h,m)"
+  spec.source_files  = "HKBluetooth/Classes/**/*{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
