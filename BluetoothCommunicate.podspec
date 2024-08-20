@@ -36,10 +36,10 @@ Pod::Spec.new do |spec|
   spec.author             = { "hi kobe" => "1546294949@qq.com" }
 
   spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "10.0"
+  # spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -65,16 +65,16 @@ Pod::Spec.new do |spec|
 
   # 当前目录是podspec文件所在的目录
   # 等号后表示的是要添加 CocoaPods 依赖的库在项目中的相对路径
-  # “**”这个通配符代表  s.source_files  = "TFKit-OC/TFKit-OC/TFKit/*"
+  # “**”这个通配符代表
   # 次级文件夹
 
-  spec.source_files  = "BluetoothCommunicate", "BluetoothCommunicate/AccBluetoothCommunicate/*"
+  spec.source_files  = "AccBluetoothCommunicate/*"
 
   # 指明文件夹下不需要添加到 CocoaPods 的文件
   # 这里是 Exclude 文件夹内的内容
   spec.exclude_files = ""
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "AccBluetoothCommunicate/AccBluetoothCommunicate.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
