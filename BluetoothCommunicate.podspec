@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   蓝牙指令发送管理类工具
                    DESC
 
-  spec.homepage     = "https://github.com/UnfamousCoder-zhangsan"
+  spec.homepage     = "https://github.com/UnfamousCoder-zhangsan/BluetoothCommunicate"
 
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -68,13 +68,7 @@ Pod::Spec.new do |spec|
   # “**”这个通配符代表
   # 次级文件夹
 
-  spec.source_files  = "BluetoothCommunicate/AccBluetoothCommunicate/*", "BluetoothCommunicate/AccBluetoothCommunicate/BabyBluetooth/*"
-
-  # 指明文件夹下不需要添加到 CocoaPods 的文件
-  # 这里是 Exclude 文件夹内的内容
-  spec.exclude_files = ""
-
-  #spec.public_header_files = "AccBluetoothCommunicate/AccBluetoothCommunicate.h"
+  spec.source_files  = "BluetoothCommunicate/**/*.(h,m)"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
