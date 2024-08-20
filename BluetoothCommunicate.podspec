@@ -68,13 +68,13 @@ Pod::Spec.new do |spec|
   # “**”这个通配符代表
   # 次级文件夹
 
-  spec.source_files  = "AccBluetoothCommunicate/*"
+  spec.source_files  = "AccBluetoothCommunicate/AccBluetoothCommunicate/*"
 
   # 指明文件夹下不需要添加到 CocoaPods 的文件
   # 这里是 Exclude 文件夹内的内容
   spec.exclude_files = ""
 
-  spec.public_header_files = "AccBluetoothCommunicate/AccBluetoothCommunicate.h"
+  #spec.public_header_files = "AccBluetoothCommunicate/AccBluetoothCommunicate.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
