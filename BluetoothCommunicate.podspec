@@ -68,7 +68,10 @@ Pod::Spec.new do |spec|
   # “**”这个通配符代表
   # 次级文件夹
 
-  spec.source_files  = "HKBluetooth/Classes/**/*{h,m}"
+  spec.source_files  = "AccBluetoothCommunicate/AccBluetoothCommunicate.h","AccBluetoothCommunicate/CommandTaskProtocol.h","AccBluetoothCommunicate/AccBCCommandTaskManager{h,m}"
+
+  #spec.subspec "BabyBluetooth" do ｜ss｜
+  #ss.source_files = ""
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
