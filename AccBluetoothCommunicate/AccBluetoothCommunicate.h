@@ -13,8 +13,12 @@ FOUNDATION_EXPORT double AccBluetoothCommunicateVersionNumber;
 //! Project version string for AccBluetoothCommunicate.
 FOUNDATION_EXPORT const unsigned char AccBluetoothCommunicateVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <AccBluetoothCommunicate/PublicHeader.h>
-
-#import <AccBluetoothCommunicate/AccBCCommandTaskManager.h>
-#import <AccBluetoothCommunicate/BabyBluetooth.h>
-#import <AccBluetoothCommunicate/CommandTaskProtocol.h>
+#if __has_include("AccBCCommandTaskManager.h")
+#import "AccBCCommandTaskManager.h"
+#endif
+#if __has_include("BabyBluetooth.h")
+#import "BabyBluetooth.h"
+#endif
+#if __has_include("CommandTaskProtocol.h")
+#import "CommandTaskProtocol.h"
+#endif

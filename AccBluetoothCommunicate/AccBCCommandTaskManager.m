@@ -6,8 +6,7 @@
 //
 
 #import "AccBCCommandTaskManager.h"
-#import <AccBluetoothCommunicate/BabyBluetooth.h>
-#import <AccBluetoothCommunicate/CommandTaskProtocol.h>
+#import "BabyBluetooth.h"
 
 @interface AccBCCommandTaskManager ()
 @property (nonatomic, strong) CBPeripheral *peripheral;

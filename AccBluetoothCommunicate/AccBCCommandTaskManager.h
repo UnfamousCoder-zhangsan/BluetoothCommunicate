@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
-#import <AccBluetoothCommunicate/CommandTaskProtocol.h>
+#import "CommandTaskProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol CommandTaskProtocol;

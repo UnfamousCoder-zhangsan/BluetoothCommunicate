@@ -12,7 +12,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AccBluetoothCommunicate/BabyDefine.h>
+#import "BabyDefine.h"
 
 
 @interface BabyRhythm : NSObject

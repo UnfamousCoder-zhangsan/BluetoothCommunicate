@@ -13,9 +13,9 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
-#import <AccBluetoothCommunicate/BabyToy.h>
-#import <AccBluetoothCommunicate/BabySpeaker.h>
-#import <AccBluetoothCommunicate/BabyDefine.h>
+#import "BabyToy.h"
+#import "BabySpeaker.h"
+#import "BabyDefine.h"
 
 
 
